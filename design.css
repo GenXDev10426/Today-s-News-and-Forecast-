@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+.layout{
+    background: rgb(26, 22, 29);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    height: 2430px;;
+    width: 1366px;
+    align-items: flex-start;
+}
+.flex-container{
+    padding-left: 2px ;
+    margin-left: 2px;
+    display: flex;
+flex-direction: column;
+
+  
+}
+.details{
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px;
+    border-radius: 40px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.weather{
+    width: 300px;
+    height: 460px;
+    margin: 2px ;
+    background-color: rgb(46, 199, 199);
+    background:url('https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80');
+    padding: 20px;
+    text-align: center;
+
+}
+.weather>* {
+    margin-bottom: 20px;
+}
+.weather_body {
+    color: #8cca28;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10%;
+    background-color: rgb(0 0 0 / 60%);
+    height: 50vh;
+}
+.location{
+    font-weight: bold;
+}
+.weather_stats{
+    padding: 20px;
+
+}
+.img{
+    padding:0;
+    margin: 0;
+}
+.next-day{
+padding: 2px;
+margin:10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border:3px solid rgba(24, 95, 77, 0.63);
+ border-radius: 30px;
+ height: 23vh;
+}
+.day{
+    padding: 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    color: cornsilk;
+    font-weight: bold;
+    background: #55555a;
+    border-radius: 30px;
+}
+.temprature{
+    padding: 2px 10px;
+    margin: 2px 10px;
+    align-items: center;
+    color: cornsilk;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.future-forecast{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.608);
+    border: none;
+    outline: none;
+    color: rgba(22, 22, 22, 0.925);
+    font-size: 1.5rem;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 10px;
+    text-align: center;
+
+
+}
+.future-forecast{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    margin:5px
+}
+
+.input-box:focus{
+    background-color: seashell;
+}
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow:  2px 4px rgba(0,0,0,0.3);
+}
+.min-max, .weather-stats{
+ font-size: 20px;
+ font-weight: 600;
+
+}
+.news{
+    background : #03203C;
+    margin: 2px;
+    padding:  20px;
+    height: 3175px;;
+    width: 1023px;
+    content: inherit;
+} 
+.navbar{
+    height: 50px;
+    width: 1000px;
+}
+.carousel-item{
+    height: 70vh;
+    width: 160vh;
+}
+.newsheading{
+    
+    text-align: center;
+    height: vh;
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: bolder;
+    margin: 2vh;
+}
+.card-img, .card-img-bottom, .card-img-top{
+    height: 60%;
+}.tabs{
+    display: flex;
+}
