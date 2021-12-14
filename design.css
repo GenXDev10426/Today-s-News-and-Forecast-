@@ -30,10 +30,10 @@ flex-direction: column;
 }
 .weather{
     width: 300px;
-    height: 460px;
+    height: 660px;
     margin: 2px ;
     background-color: rgb(46, 199, 199);
-    background:url('https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80');
+    /* background:url('https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80'); */
     padding: 20px;
     text-align: center;
 

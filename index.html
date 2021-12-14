@@ -14,7 +14,23 @@
     <div class="layout">
       <div class="flex-container">
         <div class="weather">
-          <div class="searchInput">
+          <div class="mb-3">
+            <select name="countryList" id="countryList" class="form-select" >
+              <option value="">Select Country</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <select name="stateList" id="stateList" class="form-select" disabled>
+              <option value="">Select State</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <select name="cityList" id="cityList" class="form-select" disabled>
+              <option value="">Select City</option>
+            </select>
+          </div>
+          <div class="sepration"> OR</div>
+          <div class="searchInput" id="searchInput">
             <input
               type="text"
               id="input-box"
@@ -23,6 +39,7 @@
               autocomplete="off"
             />
           </div>
+
 
           <div class="weather_body">
             <div class="location">
@@ -43,63 +60,7 @@
             </div>
           </div>
         </div>
-        <div class="future-forecas">
-        <div class ="next-day" id="current-temp" >
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="="weather image class="w-icon">
-          <div class="other">
-            <div class="day">Monday</div>
-           <div class="temprature">Max - 25&deg;c</div>
-           <div class="temprature">Mmin - 20&deg;c</div>
-          </div>
-           
-        </div>
-        <div class ="next-day" id="current-temp" >
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="="weather image class="w-icon">
-          <div class="other">
-            <div class="day">Tuesday</div>
-           <div class="temprature">Max - 25&deg;c</div>
-           <div class="temprature">Mmin - 20&deg;c</div>
-          </div>
-           
-        </div>
-        <div class ="next-day" id="current-temp" >
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="="weather image class="w-icon">
-          <div class="other">
-            <div class="day">Wednesday</div>
-           <div class="temprature">Max - 25&deg;c</div>
-           <div class="temprature">Mmin - 20&deg;c</div>
-          </div>
-           
-        </div>
-        <div class ="next-day" id="current-temp" >
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="="weather image class="w-icon">
-          <div class="other">
-            <div class="day">Thrusday</div>
-           <div class="temprature">Max - 25&deg;c</div>
-           <div class="temprature">Mmin - 20&deg;c</div>
-          </div>
-           
-        </div>
-        <div class ="next-day" id="current-temp" >
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="="weather image class="w-icon">
-          <div class="other">
-            <div class="day">Friday</div>
-           <div class="temprature">Max - 25&deg;c</div>
-           <div class="temprature">Mmin - 20&deg;c</div>
-          </div>
-           
-        </div>
-        <div class ="next-day" id="current-temp" >
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="="weather image class="w-icon">
-          <div class="other">
-            <div class="day">Saturday</div>
-           <div class="temprature">Max - 25&deg;c</div>
-           <div class="temprature">Mmin - 20&deg;c</div>
-          </div>
-           
-        </div>
         
-      </div>
       </div>
        <div class="news" id="newsPage">
          <div class="navwindow"><nav class="navbar navbar-expand-lg navbar-light bg-light">
